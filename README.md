@@ -1,4 +1,5 @@
 # EnactusIITD-Website
 Enactus IIT Delhi - Official Website 2017.
 
-> using this website as a template is completely free.
+
+> this code is contributed by techcentaur. Special thanks to creators of Box template version.
