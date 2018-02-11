@@ -15,8 +15,11 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+
     <!-- main css -->
     <link href="css/style.css" rel="stylesheet">
+
 
     <!-- modernizr -->
     <script src="js/modernizr.js"></script>
@@ -27,27 +30,6 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
- <style>
-        .imagediv {
-            margin: 5%;
-            text-align: justify;
-        }
-
-        .imagediv .div1 {
-            display: inline-block;
-            margin: 2%;
-        }
-        .imagediv .div1 img{
-            height: 150px;
-            width: 150px;
-            border-radius: 50%;
-        } 
-        .imagediv:after {
-            content: '';
-            display: inline-block;
-            width: 100%;
-        }
-    </style>
 </head>
 
 <body>
@@ -88,9 +70,12 @@
                 <li><a href="getinvolved.html">Get Involved</a></li>
                 <li><a href="awards.html">Awards and Recognition</a></li>
                 <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">contact us</a></li>
+
 
 
                 <li class="box-label">Follow Us</li>
+
                 <li class="box-social"><a href="https://www.facebook.com/enactusiitdelhi"><i class="ion-social-facebook"></i></a></li>
                 <li class="box-social"><a href="https://twitter.com/enactusiitd"><i class="ion-social-twitter"></i></a></li>
                 <li class="box-social"><a href="https://github.com/techcentaur/EnactusIITD-Website"><i class="ion-social-github"></i></a></li>
@@ -104,7 +89,7 @@
                 <h1 class="box-headline letters rotate-2">
                     <span class="box-words-wrapper">
                         <b class="is-visible">Aspire.</b>
-                        <b>&nbsp;Believe</b>
+                        <b>&nbsp;Believe.</b>
                         <b>Achieve.</b>
                     </span>
 		        </h1>
@@ -135,43 +120,13 @@
         <div class="portfolio">
             <div class="no-padding portfolio_container">
                 <!-- single work -->
-                <div class="col-md-3 col-sm-6 photography">
-                    <a href="alo.html" class="portfolio_item">
-                        <img src="img/schools.png" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>A child should get a choice.</span>
-                                    <em>ALO</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 photography">
-                    <a href="arth.html" class="portfolio_item">
-                        <img src="img/farmerc.jpg" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Culture should evolve meaningfully with time.</span>
-                                    <em>ARTH - अर्थ</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-                <!-- single work -->
                 <div class="col-md-3 col-sm-6  fashion logo">
                     <a href="nirmalya.html" class="portfolio_item">
                         <img src="img/Nirmalya_cropped.jpg" alt="image" class="img-responsive" />
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
                                 <div class="item_info">
-                                    <span>Our waste is our responsibility</span>
+                                    <span>Waste Collectors are also 'Humans'</span>
                                     <em>NIRMALYA - निर्मला</em>
                                 </div>
                             </div>
@@ -196,11 +151,59 @@
                 </div>
                 <!-- end single work -->
 
+                <!-- single work -->
+                <div class="col-md-3 col-sm-6 fashion ads">
+                    <a href="aanch.html" class="portfolio_item">
+                        <img src="img/Aanch_cropped.jpeg" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>flames during cooking shouldn't kill anyone</span>
+                                    <em>AANCH - आंच</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
 
                 <!-- single work -->
-                <div class="col-md-3 col-sm-6 photography">
+                <div class="col-md-3 col-sm-6 graphics ads">
+                    <a href="excel_india.html" class="portfolio_item">
+                        <img src="img/excel_cropped.jpg" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Paper's worth is not more than a human</span>
+                                    <em>Excelsior India</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+
+
+                <!-- single work -->
+                <div class="col-md-6 col-sm-12 photography">
+                    <a href="arth.html" class="portfolio_item">
+                        <img src="img/farmer.jpg" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Farmers should be able to feed his own child</span>
+                                    <em>ARTH - अर्थ</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+
+                <!-- single work -->
+                <div class="col-md-6 col-sm-12 photography">
                     <a href="food_for_life.html" class="portfolio_item">
-                        <img src="img/ffl.jpg" alt="image" class="img-responsive" />
+                        <img src="img/ffl_cropped.jpg" alt="image" class="img-responsive" />
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
                                 <div class="item_info">
@@ -212,155 +215,73 @@
                     </a>
                 </div>
                 <!-- end single work -->
-
-
-
-
-                        <!-- single work -->
-                <div class="col-md-3 col-sm-6 photography">
-                    <a href="excel_india.html" class="portfolio_item">
-                        <img src="img/excel_cropped.jpg" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span> A bundle of paper's worth is not more than a human.</span>
-                                    <em>Excelsior India</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-                    <!-- single work -->
-                <div class="col-md-3 col-sm-6 photography">
-                    <a href="food_for_life.html" class="portfolio_item">
-                        <img src="img/white.jpg" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Coming Soon</span>
-                                    <em>Coming soon</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 graphics ads">
-                    <a href="aanch.html" class="portfolio_item">
-                        <img src="img/Aanch_cropped.jpeg" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Cooking shouldn't kill</span>
-                                    <em>AANCH - आंच</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-
             </div>
             <!-- end portfolio_container -->
         </div>
         <!-- portfolio -->
     </div>
     <!-- end portfolio div -->
-    <hr>
-    <div><center><h2 style="text-transform: unset;">~ Impact Figures ~</h2></center></div>
-   <div class="imagediv">
-            <div class="div1">
-                <h4>Number of <br>lives touched</h4>
-                <h3>9999</h3>
-            </div>
-             <div class="div1">
-                <h4>Number of <br>entrepreneurs made</h4>
-                <h3>99</h3>
-            </div>
-             <div class="div1">
-                <h4>Number of <br>team hours spent</h4>
-                <h3>999</h3>
-            </div>
-        </div>
-    <div>
-       <hr style="opacity: 0.5;">
-    </div>
-    <div><center><h2 style="text-transform: unset;">~ Mentor Panel ~</h2></center></div>
-<!--mentor panel-->
-       <div class="imagediv">
-        <h3><u>People</u></h3>
-            <div class="div1">
-                <img src="img/default.jpg">
-                <h3>Prof</h3>
-                <p>Name and Text</p>
-            </div>
-            <div class="div1">
-                <img src="img/default.jpg">
-                <h3>Prof</h3>
-                <p>Name and Text</p>
-            </div>
-            <div class="div1">
-                <img src="img/default.jpg">
-                <h3>Prof</h3>
-                <p>Name and Text</p>
-            </div>
-            <div class="div1">
-                <img src="img/default.jpg">
-                <h3>Prof</h3>
-                <p>Name and Text</p>
-            </div>
-        </div>
-               <div class="imagediv">
-            <div class="div1">
-                <img src="img/default.jpg">
-                <h3>Prof</h3>
-                <p>Name and Text</p>
-            </div>
-            <div class="div1">
-                <img src="img/default.jpg">
-                <h3>Prof</h3>
-                <p>Name and Text</p>
-            </div>
-            <div class="div1">
-                <img src="img/default.jpg">
-                <h3>Prof</h3>
-                <p>Name and Text</p>
-            </div>
-            <div class="div1">
-                <img src="img/default.jpg">
-                <h3>Prof</h3>
-                <p>Name and Text</p>
-            </div>
-        </div>
-<!--mentor panel-->
-<hr>
-   <div class="imagediv">
-        <h3><u>Organisation</u></h3>
-            <div class="div1">
-                <img src="img/org.png">
-                <h3>Name</h3>
-                <p>About</p>
-            </div>
-             <div class="div1">
-                <img src="img/org.png">
-                <h3>Name</h3>
-                <p>About</p>
-            </div>
-             <div class="div1">
-                <img src="img/org.png">
-                <h3>Name</h3>
-                <p>About</p>
-            </div>
-        </div>
-    <!-- end top bar -->
-      <hr style="opacity: 0.5;">
-    <div>
-            <h3><center><a href="conatct.html" style="color: black;">Contact Us Here</a></center></h3>
-    </div>
-    <hr style="opacity: 0.5;">
 
+    <!-- top bar -->
+    <div class="top-bar">
+        <h1>contact Us</h1>
+        <p>Reach us for any questions you might have</p>
+    </div>
+    <!-- end top bar -->
+
+    <!-- main-container -->
+    <div class="container main-container">
+        <div class="col-md-6">
+            <form action="http://themes.wplook.com/studio8/contact/#wpcf7-f5-p43-o1" method="post">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="name">
+                            <span>your name</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="email">
+                            <span>your email</span>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="input-contact">
+                            <input type="text" name="object">
+                            <span>object</span>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="textarea-contact">
+                            <textarea name="message"></textarea>
+                            <span>message</span>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                       <input type="submit" value="Send" name="submit" class="btn btn-box">
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="col-md-6">
+            <h3 class="text-uppercase">contact us</h3>
+            <h5>For any queries or doubts you have, we are here for you.</h5>
+            <div class="h-30"></div>
+            <p>Interested in working together? or Have any doubts in projects? We would love to help you out. You can contact us via email or phone.</p>
+            <div class="contact-info">
+                <p><i class="ion-android-call"></i>(+91) 98-68-177649</p>
+                <p><i class="ion-ios-email"></i>apurvkaushal@gmail.com</p>
+            </div>
+            <div class="contact-info">
+                <p><i class="ion-android-call"></i>  (+91) 84-47-009024</p>
+                <p><i class="ion-ios-email"></i>sjainiitd@gmail.com</p>
+            </div>
+        </div>
+
+
+    </div>
     <!-- end main-container -->
 
 
