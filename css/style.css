@@ -37,7 +37,7 @@ body {
     height: 100%;
     font-family: 'Poppins', sans-serif;
     line-height: 1.8;
-    color: #999
+    color: #999;
 }
 
 .no-padding {
@@ -431,6 +431,7 @@ h5 {
 .box-intro .table-cell {
     display: table-cell;
     vertical-align: middle;
+
 }
 
 .box-intro em {
